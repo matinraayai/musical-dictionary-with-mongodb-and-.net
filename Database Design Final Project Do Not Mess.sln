@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.10
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database Design Final Project Do Not Mess", "Database Design Final Project Do Not Mess\Database Design Final Project Do Not Mess.csproj", "{CD43DB4E-E45E-4498-8AC9-7E4F8BEDCCAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database Design Final Project", "Database Design Final Project Do Not Mess\Database Design Final Project.csproj", "{CD43DB4E-E45E-4498-8AC9-7E4F8BEDCCAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {135DA079-C315-4307-B1A6-D57DA0FC5479}
 	EndGlobalSection
 EndGlobal
