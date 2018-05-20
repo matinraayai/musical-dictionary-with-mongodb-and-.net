@@ -1,0 +1,39 @@
+﻿<Window x:Class="Database_Design_Final_Project_Do_Not_Mess.Views.ReleaseWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database_Design_Final_Project_Do_Not_Mess.Views"
+        mc:Ignorable="d"
+        Title="ReleaseWindowView" Height="712" Width="994">
+
+    <Grid Margin="0,0,0,0" Height="682" VerticalAlignment="Top">
+        <TextBlock x:Name="Title" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="410" Margin="40,10,0,0" TextWrapping="Wrap" FontSize="18" />
+        <TextBlock x:Name="Artist" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="395" Margin="55,40,0,0" TextWrapping="Wrap"  FontSize="16"/>
+        <TextBlock x:Name="lastUpdated" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="200" Margin="480,40,0,0" TextWrapping="Wrap"  FontSize="14"/>
+        <TextBlock x:Name="dataQuality" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="200" Margin="720,40,0,0" TextWrapping="Wrap"   FontSize="14"/>
+        <TextBlock x:Name="status" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="200" Margin="480,70,0,0" TextWrapping="Wrap"   FontSize="14"/>
+        <TextBlock x:Name="barcode" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="200" Margin="720,10,0,0" TextWrapping="Wrap"  FontSize="14"/>
+        <TextBlock x:Name="country" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="200" Margin="720,70,0,0" TextWrapping="Wrap"  FontSize="14"/>
+        <TextBlock x:Name="notes" HorizontalAlignment="Left" Height="312" VerticalAlignment="Top" Width="440" Margin="480,360,0,0" TextWrapping="Wrap"   FontSize="14"/>
+        <TextBlock x:Name="dateReleased" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="200" Margin="480,10,0,0" TextWrapping="Wrap"   FontSize="16"/>
+        <TextBlock x:Name="labels" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="404" Margin="46,70,0,0" TextWrapping="Wrap"   FontSize="14"/>
+        <TextBlock x:Name="companies" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="378" Margin="72,140,0,0" TextWrapping="Wrap"  FontSize="14"/>
+        <TextBlock x:Name="Credits" HorizontalAlignment="Left" Height="180" Width="440"   TextWrapping="Wrap" VerticalAlignment="Top" Margin="480,175,0,0"  FontSize="14">
+        </TextBlock>
+        <TextBlock x:Name="formats" HorizontalAlignment="Left" Height="35" Width="395"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="55,100,0,0"   FontSize="14" >
+        </TextBlock>
+        <TextBlock x:Name="styles" HorizontalAlignment="Left" Height="35" Width="440"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="480,135,0,0"   FontSize="14">
+        </TextBlock>
+        <TextBlock x:Name="genres" HorizontalAlignment="Left" Height="30" Width="440"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="480,100,0,0"   FontSize="14">
+        </TextBlock>
+        <TextBlock x:Name="tracks" HorizontalAlignment="Left" Height="447" Width="390"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="60,225,0,0"  FontSize="14">
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,40,0,0" TextWrapping="Wrap" Text="Artist(s):" VerticalAlignment="Top" Height="25" Width="45"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Title:" VerticalAlignment="Top" Height="25" Width="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,70,0,0" TextWrapping="Wrap" Text="Labels:" VerticalAlignment="Top" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,100,0,0" TextWrapping="Wrap" Text="Formats:" VerticalAlignment="Top" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,140,0,0" TextWrapping="Wrap" Text="Companies:" VerticalAlignment="Top" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,225,0,0" TextWrapping="Wrap" Text="Track list:" VerticalAlignment="Top" Height="25" Width="50"/>
+    </Grid>
+</Window>

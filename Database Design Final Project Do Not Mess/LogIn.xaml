@@ -1,0 +1,27 @@
+﻿<Window x:Name="logInPage" x:Class="Database_Design_Final_Project_Do_Not_Mess.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database_Design_Final_Project_Do_Not_Mess"
+        mc:Ignorable="d"
+        Title="Welcome to Discogs: Please Log In." Height="500" Width="300" WindowStyle="ToolWindow">
+    <Grid Margin="0,0,0,0">
+        <Image Source="C:\Users\Matin\Documents\Visual Studio 2017\Projects\Database Design Final Project Do Not Mess\discogs-logo.png" Margin="10,24,10,330"/>
+        <Button x:Name="logInButton" Content="Log In" HorizontalAlignment="Left" Margin="110,308,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.539,6.389" Height="35" Click="logInButton_Click" MouseEnter="logInButton_MouseEnter" MouseLeave="logInButton_MouseLeave"/>
+        <Viewbox Margin="60,144,52,279" Stretch="Fill">
+            <Grid Height="46" Width="180">
+                <TextBox x:Name="userName" HorizontalAlignment="Left" Height="30" Margin="0,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontSize="18" AcceptsTab="True" FontStretch="SemiCondensed"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="99"/>
+
+            </Grid>
+        </Viewbox>
+        <Viewbox Margin="60,209,52,214" Stretch="Fill">
+            <Grid Height="46" Width="180">
+                <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="0,16,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="180" Height="30" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="99"/>
+            </Grid>
+        </Viewbox>
+        <TextBox x:Name="CreateUser" HorizontalAlignment="Left" Height="42" Margin="60,261,0,0" TextWrapping="Wrap" Text="Don't have a profile? Create one here." VerticalAlignment="Top" Width="180" TextDecorations="Underline" MouseEnter="CreateUser_MouseEnter" MouseLeave="CreateUser_MouseLeave" MouseLeftButtonDown="CreateUser_MouseLeftButtonDown" PreviewMouseLeftButtonDown="CreateUser_PreviewMouseLeftButtonDown_1" BorderThickness="0" TextAlignment="Justify"/>
+    </Grid>
+</Window>

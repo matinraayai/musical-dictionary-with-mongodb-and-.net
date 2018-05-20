@@ -1,0 +1,153 @@
+﻿<Window x:Class="Database_Design_Final_Project_Do_Not_Mess.DiscogsMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database_Design_Final_Project_Do_Not_Mess"
+        mc:Ignorable="d"
+        Title="Discogs.com" Height="600" Width="1200" WindowStyle="ToolWindow" Activated="Window_Activated">
+    <Grid>
+        <ScrollViewer HorizontalAlignment="Left" Height="549" Margin="10,10,0,0" HorizontalScrollBarVisibility="Auto" VerticalAlignment="Top" Width="215" >
+            <Expander Header="Filters" Height="9810" VerticalAlignment="Top" Width="200">
+                <StackPanel Margin="0,0,0,0" Height="525" Width="200">
+                    <Expander Header="Genres" Margin="0,0,0,0" Width="200">
+                        <StackPanel Margin="5,0,0,0">
+                            <CheckBox Content="Blues" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Brass &amp; Military" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Children's" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Classical" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Electronic" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Folk, World, &amp; Country" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Funk / Soul" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Hip-Hop" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Jazz" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Latin" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Non-Music" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Pop" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Reggae" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Rock" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Stage &amp; Screen" Checked="RadioButton_Checked"/>
+                        </StackPanel>
+                    </Expander>
+                    <Expander Header="Styles" Margin="0,0,0,0">
+                        <StackPanel Margin="5,0,0,0">
+                            <CheckBox Content="Pop Rock" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="House" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Synth-pop" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Punk" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Experimental" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Folk, World, &amp; Country" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Funk / Soul" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Hip-Hop" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Jazz" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Latin" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Non-Music" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Pop" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Reggae" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Rock" Checked="RadioButton_Checked"/>
+                            <CheckBox Content="Stage &amp; Screen" Checked="RadioButton_Checked"/>
+                            <Expander Header="More Styles" Margin="0,0,0,0">
+                                <StackPanel Margin="0,0,0,0">
+                                    <CheckBox Content="Pop Rock" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="House" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Synth-pop" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Punk" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Experimental" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Folk, World, &amp; Country" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Funk / Soul" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Hip-Hop" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Jazz" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Latin" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Non-Music" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Pop" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Reggae" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Rock" Checked="RadioButton_Checked"/>
+                                    <CheckBox Content="Stage &amp; Screen" Checked="RadioButton_Checked"/>
+                                </StackPanel>
+                            </Expander>
+                        </StackPanel>
+                    </Expander>
+                    <Expander Header="Decades" Margin="0,0,0,0">
+                        <StackPanel Margin="0,0,0,0">
+                            <CheckBox Margin="4" Content="Option 1" />
+                            <CheckBox Margin="4" Content="Option 2" />
+                            <CheckBox Margin="4" Content="Option 3" />
+                        </StackPanel>
+                    </Expander>
+                    <Expander Header="Format" Margin="0,0,0,0">
+                        <StackPanel Margin="0,0,0,0">
+                            <CheckBox Margin="4" Content="Option 1" />
+                            <CheckBox Margin="4" Content="Option 2" />
+                            <CheckBox Margin="4" Content="Option 3" />
+                        </StackPanel>
+                    </Expander>
+                    <Expander Header="Country" Margin="0,0,0,0">
+                        <StackPanel Margin="0,0,0,0">
+                            <CheckBox Margin="4" Content="US"/>
+                            <CheckBox Margin="4" Content="UK"/>
+                            <CheckBox Margin="4" Content="Germany"/>
+                            <CheckBox Margin="4" Content="France"/>
+                            <CheckBox Margin="4" Content="Italy"/>
+                            <CheckBox Margin="4" Content="Option 3" />
+                            <CheckBox Margin="4" Content="Option 1" />
+                            <CheckBox Margin="4" Content="Option 2" />
+                            <CheckBox Margin="4" Content="Option 3" />
+                            <CheckBox Margin="4" Content="Option 1" />
+                            <CheckBox Margin="4" Content="Option 2" />
+                            <CheckBox Margin="4" Content="Option 3" />
+                            <CheckBox Margin="4" Content="Option 1" />
+                            <CheckBox Margin="4" Content="Option 2" />
+                            <CheckBox Margin="4" Content="Option 3" />
+                        </StackPanel>
+                    </Expander>
+                </StackPanel>
+            </Expander>
+        </ScrollViewer>
+        <Grid HorizontalAlignment="Left" Height="429" Margin="230,130,0,0" VerticalAlignment="Top" Width="952">
+            <Image Source="C:\Users\Matin\Documents\Visual Studio 2017\Projects\Database Design Final Project Do Not Mess\discogs-logo.png" Margin="30,-95,740,449"/>
+            <ScrollViewer Margin="0,-10,0,0">
+                <TabControl x:Name="entityTab" Height="4133" Width="910">
+                    <TabItem x:Name="artistsTab" Header="Artists">
+                        <Grid>
+                            <StackPanel x:Name="artistPanel" Margin="0,50,0,57">
+                            </StackPanel>
+                            <TextBlock x:Name="artistPanelStats" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Showing: " VerticalAlignment="Top" Margin="10,10,0,0" Width="170" Height="25"/>
+                        </Grid>
+                    </TabItem>
+                    <TabItem x:Name="labelsTab" Header="Labels">
+                        <Grid>
+                            <StackPanel x:Name="labelsPanel" Margin="0,50,0,57">
+                            </StackPanel>
+                            <TextBlock x:Name="labelPanelStats" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Showing: " VerticalAlignment="Top" Margin="10,10,0,0" Width="170" Height="25"/>
+                        </Grid>
+                    </TabItem>                    
+                    <TabItem x:Name="releasesTab" Header="Releases">
+                        <Grid>
+                            <StackPanel x:Name="releasesPanel" Margin="0,50,0,57">
+                            </StackPanel>
+                            <TextBlock x:Name="releasePanelStats" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Showing: " VerticalAlignment="Top" Margin="10,10,0,0" Width="170" Height="25"/>
+                        </Grid>
+                    </TabItem>
+                    <TabItem x:Name="mastersTab" Header="Masters">
+                        <Grid>
+                            <StackPanel x:Name="mastersPanel" Margin="0,50,0,57">
+                            </StackPanel>
+                            <TextBlock x:Name="masterPanelStats" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Showing: " VerticalAlignment="Top" Margin="10,10,0,0" Width="170" Height="25"/>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </ScrollViewer>
+        </Grid>
+        <RichTextBox x:Name="NameSearch" HorizontalAlignment="Left" Height="30" Margin="480,60,0,479" VerticalAlignment="Center" Width="400" FontSize="18">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Search"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Center" Margin="910,60,192,479" VerticalAlignment="Center" Width="90" Height="30" Click="SearchButton_Click"/>
+        <Button x:Name="previousButton" Content="Previous" HorizontalAlignment="Left" Margin="1025,60,0,0" VerticalAlignment="Top" Width="55" Height="30" Click="previousButton_Click"/>
+        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Left" Margin="1085,60,0,0" VerticalAlignment="Top" Width="55" Height="30" Click="nextButton_Click"/>
+
+    </Grid>
+</Window>
